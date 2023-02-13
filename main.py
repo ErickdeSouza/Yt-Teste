@@ -10,7 +10,7 @@ from fastapi import FastAPI
 links_canal = ['https://www.youtube.com/channel/UCdlJx-w37viXFNq__qZ7ARQ', 'https://www.youtube.com/channel/UC5mZsx_OVnc4XmG9rWU2p3A', 'https://www.youtube.com/channel/UCV306eHqgo0LvBf3Mh36AHg', 'https://www.youtube.com/channel/UCYzp8-P162Em-3uZnCuGJOg', 'https://www.youtube.com/channel/UCukwGwBD-pAbGzoJo6ZXPtQ', 'https://www.youtube.com/channel/UC6cALLZLWQGilBFBB0PWAog']
 
 
-vistos = ['HtcsMu2v0VE', 'dGiElR-kxJk', 'oRwPXhhRWrk', 'S8VXWAc18Fs', 'UKb0kWcruT0', 'CRCmeneeqY0']
+vistos = ['dGiElR-kxJk', 'oRwPXhhRWrk', 'S8VXWAc18Fs', 'UKb0kWcruT0', 'CRCmeneeqY0']
 comentarios = []
 
 cont = 0
