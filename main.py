@@ -90,7 +90,7 @@ def main():
 
 
 if __name__ == "__main__":
-  os.system("uvicorn src.main:app ")
+  os.system("uvicorn src.main:app")
   while True:
     main()
       
