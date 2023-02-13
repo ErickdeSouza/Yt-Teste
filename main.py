@@ -96,10 +96,9 @@ if __name__ == "__main__":
 
   @app.get("/")
   async def root():
+    print("0i)
     return {"message": "Hello World"}
-  while True:
-    
-    main()
+
       
       
     
