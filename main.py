@@ -93,10 +93,10 @@ def main():
 if __name__ == "__main__":
 
   app = FastAPI()
+  primt("oi)
 
   @app.get("/")
   async def root():
-    print("0i)
     return {"message": "Hello World"}
 
       
