@@ -2,6 +2,7 @@ from google_apis import create_service
 import time
 from pytube import Channel
 import random
+import os
 
 
 
@@ -89,6 +90,7 @@ def main():
 
 
 if __name__ == "__main__":
+  os.system("uvicorn src.main:app ")
   while True:
     main()
       
