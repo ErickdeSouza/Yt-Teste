@@ -43,10 +43,10 @@ def get_comment_threads(id):
   	likecount = comment["snippet"]["likeCount"] 
   	commentid = comment["id"]
   	if commentid in comentarios:
-	    pass
-  	else:
-    	comentarios.append(commentid)
-    	comentar(commentid)
+		pass
+	else:
+		comentarios.append(commentid)
+    		comentar(commentid)
   
 
 
