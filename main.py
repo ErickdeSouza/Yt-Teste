@@ -3,6 +3,7 @@ import time
 from pytube import Channel
 import random
 import os
+from fastapi import FastAPI
 
 
 
@@ -90,8 +91,14 @@ def main():
 
 
 if __name__ == "__main__":
-  os.system("uvicorn src.main:app")
+
+  app = FastAPI()
+
+  @app.get("/")
+  async def root():
+    return {"message": "Hello World"}
   while True:
+    
     main()
       
       
