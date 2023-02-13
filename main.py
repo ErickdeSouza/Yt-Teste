@@ -90,13 +90,11 @@ def main():
 
 
 
-if __name__ == "__main__":
+app = FastAPI()
 
-  app = FastAPI()
-
-  @app.get("/")
-  async def root():
-    return {"message": "Hello World"}
+@app.get("/")
+async def root():
+  return {"message": "Hello World"}
 
       
       
