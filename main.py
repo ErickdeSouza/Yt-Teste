@@ -93,7 +93,7 @@ def main():
 if __name__ == "__main__":
 
   app = FastAPI()
-  print("oi)
+  print("oi")
 
   @app.get("/")
   async def root():
